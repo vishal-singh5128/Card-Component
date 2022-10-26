@@ -1,0 +1,154 @@
+*{  margin: 0;  
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+body
+{   
+    line-height: 1.75;
+    color: #8E8F93;
+    
+    background-color:#19A1AD;
+
+}
+
+table
+{  margin: 15px auto 0px;
+
+}
+
+th
+{   color: black;
+    padding:2.5px;
+}   
+
+td
+{   padding:2.5px;
+    font-size: smaller;
+}
+
+hr
+{   height:0.85px;
+    border-width:0;
+    color: gray;
+    background-color:gray
+        
+}
+.section1
+{   display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-image:url(bg-pattern-bottom.svg) ;
+    background-size: 136%;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    transform: rotate(180deg);
+   
+
+}
+
+.section2
+{   
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    position: absolute;
+    background-image: url(bg-pattern-top.svg);
+    background-size: 136%;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    top: 200px;
+    
+}
+
+
+.card-layout
+{   position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 0;
+    margin:200px 33.5% 10px;
+    justify-content: center;
+    
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    border-radius: 8px;
+ 
+    
+
+
+}
+
+.card-bg
+{   border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+}
+
+.content
+{   background-color: #fff;
+    width: 100%;
+    height: 175px;
+    padding: 40px 0px ;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px ;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.profile
+{   position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    top: 52.5px;
+    left: 165px;
+
+}
+
+@media only screen and (max-width:700px)
+{   
+*{  margin: 0;
+    padding: 0;
+
+}
+
+.card-layout
+{   width: 90%;
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    height: 300px;
+    margin: 0;
+    justify-content: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+
+}
+.profile
+{   left: 120px;
+    top: 15px;
+
+}
+
+.attribution
+{   width: 70%;
+    position: relative;
+    left: 40px;  
+}
+
+.section1
+{   top: -339px;
+
+}
+
+.section2
+{   top: 332px;
+
+}
+}
